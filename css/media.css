@@ -1,0 +1,122 @@
+/* movile */
+
+@media (max-width: 426px) {
+    /* inicio del header */
+    header {
+        background-color: #0c343d;
+        position: absolute;
+    }
+    .titulo a {
+        color: white;
+    }
+    .header__div {
+        justify-content:center;
+    }
+    .header__div .barrabusqueda {
+        display: none
+    }
+    .contenedor__menu {
+        background-color: white;
+    }
+    nav ul li a {
+        font-size: 11px;
+        color: black;
+        font-weight: 600;
+    }
+    /* fin de header */
+
+    /* inicio del main */
+
+            /* index */
+    .main-setion a {
+        font-size: 16px;
+    }
+    .novedades {
+        padding: 10px 10px;
+    }
+    .novedades .portada {
+        width: 100px;
+    }
+    .novedades .precios {
+        font-size: 11px;
+    }
+            /* index */
+
+            /* micuenta */
+    .main-grid {
+        background-color: rgb(209, 234, 218);
+    }
+    .main-grid .item-form:nth-child(1){
+        font-size: 15px;
+    }
+    .main-grid .item-form:nth-child(2){
+        font-size: 15px;
+    }
+    .main-grid .item-form:nth-child(3){
+        font-size: 15px;
+    }
+    .main-grid .item-form:nth-child(4){
+        font-size: 15px;
+    }
+    .main-grid .item-form:nth-child(5){
+        font-size: 10px;
+        text-transform: lowercase;
+    }
+    .main-grid .item-form input {
+        font-size: 18px;
+    }
+
+    /* fin de main */
+
+    /* inicio del footer */
+    .container-footer .item-footer:nth-child(1) {
+        grid-row: 1/3;
+    }
+    .container-footer .item-footer:nth-child(3){
+        grid-column: 2/4;
+    }
+    .container-footer .item-footer:nth-child(4){
+        font-size: 14px;
+        grid-column: 2/4;
+    }
+    .container-footer .item-footer:nth-child(2){
+        display: none;
+    }
+    .container-footer .item-footer:nth-child(5) {
+        display: none;
+    }
+
+    /* fin del footer */
+}
+
+/* tablet */
+
+@media (min-width:768px) and (max-width:1024px) {
+    
+    /* inicio del headeer */
+    header {
+        background-color: #0c343d;
+        position: absolute;
+    }
+    .titulo a {
+        color:white;
+    }
+    .contenedor__menu {
+        background-color: white;
+    }
+    nav ul li a {
+        font-size: 16px;
+        color: black;
+        font-weight: 600;
+    }
+    /* fin del header */
+
+    /* inicio del main */
+    .main-setion a {
+        font-size: 20px;
+    }
+    .novedades .portada {
+        width: 120px;
+    }
+    /* fin del main */
+}
