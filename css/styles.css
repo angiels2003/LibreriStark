@@ -37,9 +37,10 @@ header {
     top: 0;
     left: 0;
     background-color: white;
+    z-index: 2;
 }
 .titulo a {
-    color: black;
+    color: rgb(116, 2, 2);
 }
 .header__div {
     max-width: 1200px;
@@ -61,7 +62,7 @@ header {
 .contenedor__menu {
     width: 100%;
     height: 70px;
-    background: linear-gradient( #ffffff , #0c343d, #0c343d, #0c343d );
+    background: linear-gradient( #bf7979ae , #720606, #720606, #720606 );
     padding: 0px 20px;
 }
 .menu {
@@ -114,7 +115,7 @@ main {
 }
 
 .main-setion a {
-    background-color: #0c343d;
+    background-color: #720606;
     display: flex;
     font-size: 23px;
     color: white;
@@ -136,7 +137,7 @@ main {
     width: 175px;
     display: inline;
     text-align: center;
-    transition: width 2s;
+    transition: width 1s;
 }
 .novedades .portada:hover{
     width: 200px;
@@ -144,7 +145,7 @@ main {
     cursor: pointer;
 }
 .novedades .precios {
-    color: rgb(158, 12, 12);
+    color: black;
     margin: 15px;
     text-align:center;
     font-size: 13px;
@@ -241,7 +242,7 @@ main {
 
 .container-footer {
     display: grid;
-    background-color: #0c343d;
+    background-color:#720606 ;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 30px 75px ;
     gap: 10px;
@@ -257,13 +258,10 @@ main {
 }
 @keyframes primera-ani {
     0% {
-        background-color: #0c343d;
+        background-color: #3d120c;
     }
     50% {
-        background: #4a96a7ed;
-    }
-    75% {
-        background-color: #041e24c7;
+        background: #a74a4aed;
     }
     
 }
