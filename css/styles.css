@@ -41,6 +41,7 @@ header {
 }
 .titulo a {
     color: rgb(116, 2, 2);
+    text-decoration: none;
 }
 .header__div {
     max-width: 1200px;
@@ -83,6 +84,7 @@ nav ul li {
     position: relative;
 }
 nav ul li a {
+    text-decoration: none;
     width: 100%;
     height: 100%;
     display: flex;
@@ -116,6 +118,7 @@ main {
 }
 
 .main-setion a {
+    text-decoration: none;
     background-color: #720606;
     display: flex;
     font-size: 23px;
@@ -321,7 +324,31 @@ input[type="submit"]:hover {
     font-weight: 600;
     color: #3d120c;
 }
+/* fin de lbros */
 
+
+
+
+
+/* inicio de novedades */
+
+.novedades-pag {
+    display: grid;
+    background-color: #adadad;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.portada-nav {
+    width: 165px;
+    padding: 5px;
+}
+.precios-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+    color: #3d120c;
+}
 
 
 
