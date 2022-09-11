@@ -263,6 +263,64 @@ input[type="submit"]:hover {
 /* fin de mi cuenta */
 
 
+/* inicio de libros */
+
+.container-categoria {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr auto;
+    gap: 10px;
+}
+.titulo-categorias {
+    background-color: #720606;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.categorias {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.categorias ul li a {
+    color: #3d120c;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: square;
+    font-weight: 600;
+
+}
+.libros-titulo {
+    background-color: #720606;
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.libros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    background-color: #adadad;
+}
+.item-portada {
+    padding: 5px;
+    width: 165px;
+}
+.item-precio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+    color: #3d120c;
+}
 
 
 
